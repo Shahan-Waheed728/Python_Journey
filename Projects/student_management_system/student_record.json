@@ -1,0 +1,17 @@
+[
+   {
+      "roll_no": 1,
+      "name": "Shahan Waheed",
+      "grade": 9,
+      "marks": {
+         "Math": 98.0,
+         "Eng": 97.0,
+         "Phy": 84.0,
+         "Chem": 82.0,
+         "Urdu": 98.0,
+         "Comp": 85.0,
+         "Isl": 49.0,
+         "Sst": 48.0
+      }
+   }
+]
