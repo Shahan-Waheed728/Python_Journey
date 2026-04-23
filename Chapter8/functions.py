@@ -1,0 +1,50 @@
+# python program to print student marks of five subjects using function
+# def Result():
+#     s1 = int(input("Enter math marks:"))
+#     s2 = int(input("Enter sci marks:"))
+#     s3 = int(input("Enter eng marks:"))
+#     s4 = int(input("Enter urdu marks:"))
+#     s5 = int(input("Enter isl marks:"))
+#     print(f"Maths:{s1}")
+#     print(f"Scinence:{s2}")
+#     print(f"English:{s3}")
+#     print(f"Urdu:{s4}")
+#     print(f"Islamiat:{s5}")
+# Result()
+# python program to print result of students using parametrized function
+# def Result(name,roll_no,grade):
+#     s1 = int(input("Enter math marks:"))
+#     s2 = int(input("Enter sci marks:"))
+#     s3 = int(input("Enter eng marks:"))
+#     s4 = int(input("Enter urdu marks:"))
+#     s5 = int(input("Enter isl marks:"))
+#     total = 435
+#     obt_marks = (s1+s2+s3+s4+s5)
+#     print(f"Maths:{s1}")
+#     print(f"Scinence:{s2}")
+#     print(f"English:{s3}")
+#     print(f"Urdu:{s4}")
+#     print(f"Islamiat:{s5}")
+#     print(f"Total marks = {total}")
+#     print(f"Obtained marks = {obt_marks} ")
+# Result("Talha",1,10)
+
+# python program to print student result using default parameters
+def Result(name,roll_no,grade=8):
+    s1 = int(input("Enter math marks:"))
+    s2 = int(input("Enter sci marks:"))
+    s3 = int(input("Enter eng marks:"))
+    s4 = int(input("Enter urdu marks:"))
+    s5 = int(input("Enter isl marks:"))
+    total = 435
+    obt_marks = (s1+s2+s3+s4+s5)
+    print("-----Result Card 2026-----")
+    print(f"Name = {name} --- Roll-no = {roll_no} --- Grade = {grade}")
+    print(f"Maths:{s1}")
+    print(f"Scinence:{s2}")
+    print(f"English:{s3}")
+    print(f"Urdu:{s4}")
+    print(f"Islamiat:{s5}")
+    print(f"Total marks = {total}")
+    print(f"Obtained marks = {obt_marks} ")
+Result("Talha",1)
